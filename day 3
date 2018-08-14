@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+int main()
+{
+  int a,b,sum;
+  printf("\nEnter 2 numbers: ");
+  scanf("%d%d",&a,&b);
+  sum=a+b;
+  printf("\nSum of 2 numbers is= %d",sum);
+  return 0;
+}
+
+                                                                                                                                    
+  Enter 2 numbers: 11                                                                                                                  
+9                                                                                                                                    
+                                                                                                                                     
+Sum of 2 numbers is= 20
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+#include <stdio.h>
+
+int main()
+{
+  float a,b,sum;
+  printf("\nEnter 2 numbers: ");
+  scanf("%f%f",&a,&b);
+  sum=a+b;
+  printf("\nSum of 2 numbers is= %f",sum);
+  return 0;
+}
+
+
+Enter 2 numbers: 4                                                                                                                   
+3                                                                                                                                    
+                                                                                                                                     
+Sum of 2 numbers is= 7.000000 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+int(num1,num2)
+{
+  if(num1==num2)
+   printf("numbers are equal.");
+  else if(num1>num2)
+   printf("first number you entered is greater than the second number you entered");
+  else 
+   printf("second number you entered is greater than the first number you entered");
+  return 0;
+ }
+                                                                                                                                
